@@ -1,0 +1,29 @@
+Exceptions is distrupt normal flow of execution 
+exceptions are handled using : try , catch , finally 
+
+try : has all the code to be monitored 
+catch: catches exception in try 
+finally : always executed
+
+error : caused by environment in which application running 
+eg : out of memory 
+
+we should not write any other statement between try,catch and finally block .
+
+we cannot just write try : shows compilation error 
+try must appear in pair with either catch or finally 
+
+once try block throws exception remaining statements not executed 
+
+when we keep multiple catch : keep from most specific to most general 
+if you keep super class before subclass it shows the general one 
+Java.lang.Error: super class of all types of errors in JAVA 
+Java.lang.Exception : throwable object : error or exception 
+
+Run time exception is unknown to compiler 
+
+
+throw keyword :: can throw exception manually using throw keyword 
+
+throwable : superclass of all errors and exception in java 
+only object of this class can throw 
